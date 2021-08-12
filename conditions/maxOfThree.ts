@@ -13,5 +13,4 @@ let a = 7, b = 8, c = 2
 console.log(`Creating with function => ` + mathOfThree(a, b, c))
 
 // other side
-
 console.log(`Using Math.max() => ` + Math.max(a, b, c))

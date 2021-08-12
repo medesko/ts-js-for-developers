@@ -1,5 +1,4 @@
 // Given three integers a, b, c, create a function that returns the value of the biggest one among them.
-// Input: a = 5, b = 6, c = 3
 var mathOfThree = function (a, b, c) {
     // if a is greater than b and c at the same time, we return it
     if (a >= b && a >= c)
@@ -13,3 +12,5 @@ var mathOfThree = function (a, b, c) {
 };
 var a = 7, b = 8, c = 2;
 console.log(mathOfThree(a, b, c));
+// other side
+console.log("Using Math => " + Math.max(a, b, c));

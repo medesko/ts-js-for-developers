@@ -1,5 +1,4 @@
 // Given three integers a, b, c, create a function that returns the value of the biggest one among them.
-// Input: a = 5, b = 6, c = 3
 
 const mathOfThree = (a: number, b: number, c: number) : number  => {
     // if a is greater than b and c at the same time, we return it
@@ -11,5 +10,8 @@ const mathOfThree = (a: number, b: number, c: number) : number  => {
 }
 
 let a = 7, b = 8, c = 2
+console.log(`Creating with function => ` + mathOfThree(a, b, c))
 
-console.log(mathOfThree(a, b, c))
+// other side
+
+console.log(`Using Math.max() => ` + Math.max(a, b, c))

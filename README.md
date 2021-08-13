@@ -12,7 +12,7 @@ npm install -g typescript
 After installing typescript, create a .ts file, for example, tsJsLove.ts as given below:
 
 ```sh
-let message: string = "I love JavaScript and TypeScript"; 
+let message: string = 'I love JavaScript and TypeScript'; 
 console.log(message); 
 // save the file as tsJsLove.ts 
 ```
@@ -20,7 +20,7 @@ console.log(message);
 ## Usage
 
 ```typescript
-tsc tsJsLove.ts --target "es2017" && node tsJsLove.js
+tsc tsJsLove.ts --target 'es2017' --outDir 'js' && node tsJsLove.js
 ```
 
 ```sh

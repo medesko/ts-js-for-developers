@@ -20,7 +20,7 @@ console.log(message);
 ## Usage
 
 ```typescript
-tsc tsJsLove.ts --target 'es2017' --outDir 'js' && node tsJsLove.js
+tsc tsJsLove.ts --target 'es2017' --outDir 'js' && node js/tsJsLove.js
 ```
 
 ```sh

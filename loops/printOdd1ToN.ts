@@ -1,6 +1,6 @@
 // Given a positive integer n, create a function that displays odd numbers from 1 to n.
-// Way 1 => By using a condition
 
+// Way 1 => By using a condition
 const printOdd1ToN = (n: number) : string => {
     let str = ''
     for (let i = 1; i <= n; i++)
@@ -15,7 +15,6 @@ console.log(printOdd1ToN(20))
 
 
 // // Way 2  Without using a condition:
-
 const printOdd1ToN2 = (n: number): string => {
     let str = ''
     for (let i = 1; i <= n; i += 2) 

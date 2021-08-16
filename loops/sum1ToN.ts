@@ -23,7 +23,7 @@ const sum1ToN2 = (n: number): number => n*(n+1)/2
 console.log(sum1ToN2(n1))
 console.log(sum1ToN2(n2))
 
-/*Output:
+/*Output: 
 120
 210
 */

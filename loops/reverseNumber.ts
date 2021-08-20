@@ -8,3 +8,13 @@ const reverse = (n: number): number => {
 
   return parseInt(nToStr)
 }
+
+console.log(reverse(123))
+console.log(reverse(2558))
+console.log(reverse(4000))
+
+/*Output:
+321
+8552
+4
+*/

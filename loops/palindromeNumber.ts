@@ -1,4 +1,4 @@
-// Given a positive integer integer n, create a function that checks if it's a plindrome number.
+// Given a positive integer integer n, create a function that checks if it's a palindrome number.
 
 const reverseN = (n: number): number => {
   // we convert n to string
@@ -10,3 +10,13 @@ const reverseN = (n: number): number => {
 }
 
 const isPalindrome = (n: number) => n == reverseN(n)
+
+console.log(isPalindrome(4554))
+console.log(isPalindrome(20502))
+console.log(isPalindrome(2336))
+
+/*Output:
+true
+true
+false
+*/

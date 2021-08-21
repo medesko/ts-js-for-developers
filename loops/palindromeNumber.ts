@@ -9,7 +9,7 @@ const reverseN = (n: number): number => {
   return parseInt(nToStr)
 }
 
-const isPalindrome = (n: number) => n == reverseN(n)
+const isPalindrome = (n: number): boolean => n == reverseN(n)
 
 console.log(isPalindrome(4554))
 console.log(isPalindrome(20502))

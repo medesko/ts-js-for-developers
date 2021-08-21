@@ -5,7 +5,7 @@ const reverse = (n: number): number => {
   let nToStr = n.toString()
   // we reverse that string
   nToStr = nToStr.split('').reverse().join('')
-
+  
   return parseInt(nToStr)
 }
 

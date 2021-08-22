@@ -7,12 +7,10 @@
 const couples = (limitX, limitY) => {
   // the first loop is for values of x 
   // (0 -> limitX)
-  for (let x = 0; x <= limitX; x++) {
-    for (let y = 0; y <= limitY; y++) {
-        // each time we print the couples {x, y}
-        console.log('{' + x + ', ' + y + '}')
-    }
-  }
+  for (let x = 0; x <= limitX; x++) 
+    for (let y = 0; y <= limitY; y++) 
+      // each time we print the couples {x, y}
+      console.log('{' + x + ', ' + y + '}')
 }
 
 couples(2, 3);
